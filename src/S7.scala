@@ -95,6 +95,16 @@ class S7 {
 
   }
 
+  /***
+    * tuple 元组
+    */
+
+  def m6(): Unit ={
+    val tp = (1,2,3)
+    // println(tp(1))     // 报错
+    println(tp._2)
+  }
+
 
 }
 
@@ -106,6 +116,8 @@ object S7 {
     s7.m2()
 
     s7.m4()
+
+    s7.m6()
 
   }
 }

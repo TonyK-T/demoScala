@@ -32,6 +32,16 @@ class S2 {
   def change_money(salary: Int = 0): Int = {
     money + salary
   }
+
+  // 匿名函数
+  val nm = (x:Int) => x+1
+
+  def nm2(x:Int): Int ={   // 匿名函数原型
+    x+1
+  }
+
+  def add(x:Int,y:Int) = x+y   //
+
 }
 
 object S2 {
