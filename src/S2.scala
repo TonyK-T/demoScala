@@ -42,6 +42,9 @@ class S2 {
 
   def add(x:Int,y:Int) = x+y   //
 
+
+  def m(x:Int)(y:Int) = x+y    // 柯理化
+
 }
 
 object S2 {
