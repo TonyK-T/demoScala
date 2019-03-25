@@ -37,6 +37,17 @@ class S3(name: String="jock", sex: String, val age: Int, private val salary: Int
 
 }
 
+
+// 通过 辅助构造器默认赋值
+class S3a(val id:Int,val name:String){
+  def this(id:Int){
+    this(id,"K")     // 第一行调用主构造器并且 传参id 和 name默认赋值
+  }
+}
+
+
+
+
 object S3 {
   def main(args: Array[String]): Unit = {
 
@@ -50,7 +61,7 @@ object S3 {
 
     s3.say("hello")
 
-    val s4 = new S3("rose", "girl", 16, 110, "玫瑰") // 辅构造器的作用： 创建实例对象的时候可以多给几个属性赋值
+    val s4 = new S3("rose", "girl", 16, 110, "玫瑰") // 辅构造器的作用： 1、创建实例对象的时候可以多给几个属性赋值   2、在赋值构造器里面给默认值
     s4.say("hi")
 
   }

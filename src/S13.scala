@@ -1,3 +1,5 @@
+import scala.collection.mutable
+
 /** *
   * 并发 Actor
   * 1、 不共享数据
@@ -8,11 +10,3 @@
   */
 
 
-class S13 {
-
-}
-
-
-object S13 {
-
-}
