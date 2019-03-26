@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a69a1aa-14f6-4d33-8a89-ad0295cabdc6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/D2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/D2$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S10$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S10$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S10$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S10$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S10$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S10$$anonfun$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S10$$anonfun$main$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S10$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S10$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S2$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S3$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S3$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S3b$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S3b$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S3b.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S3b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/S13.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S13.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/S1b.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S1b.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/S3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/S2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S2.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +13,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="S1b.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/S1b.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="S1.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/S1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="S2.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/S2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="22" column="105" lean-forward="true" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -66,12 +74,12 @@
         <option value="$PROJECT_DIR$/src/S6.scala" />
         <option value="$PROJECT_DIR$/src/S10.scala" />
         <option value="$PROJECT_DIR$/src/S11.scala" />
-        <option value="$PROJECT_DIR$/src/S2.scala" />
         <option value="$PROJECT_DIR$/src/S9.scala" />
         <option value="$PROJECT_DIR$/src/S3.scala" />
         <option value="$PROJECT_DIR$/src/S13.scala" />
         <option value="$PROJECT_DIR$/src/S1b.scala" />
         <option value="$PROJECT_DIR$/src/S7.scala" />
+        <option value="$PROJECT_DIR$/src/S2.scala" />
       </list>
     </option>
   </component>
@@ -118,9 +126,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,18 +252,19 @@
       <workItem from="1553130697471" duration="1029000" />
       <workItem from="1553147070111" duration="3106000" />
       <workItem from="1553502361905" duration="4221000" />
+      <workItem from="1553583690871" duration="442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67892000" />
+    <option name="totallyTimeSpent" value="68334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32901832" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -267,7 +276,7 @@
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.09754797" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.098614074" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -281,6 +290,7 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32901832" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,20 +364,6 @@
     </entry>
     <entry file="jar://D:/scala/lib/scala-library.jar!/scala/collection/TraversableLike.class" />
     <entry file="jar://D:/scala/lib/scala-library.jar!/scala/collection/TraversableOnce.class" />
-    <entry file="file://$PROJECT_DIR$/src/S2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/a.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -378,13 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S1b.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -413,9 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,6 +423,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S1b.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="105" lean-forward="true" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
         </state>
       </provider>
     </entry>

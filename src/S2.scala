@@ -18,7 +18,9 @@ class S2 {
 
   private var sex = "boy"
 
-  private[this] var money = 1000 // [this] 修饰作用域只限 class{} 内部
+  private[this] var money = 1000 // [this] 修饰作用域只限 当前 class{} 内部
+
+  private [S2] var salary = 2000   //  [S2] 修饰作用域只限  class S2{} 内部，class S2实例对象 以及 包名为 S2 下面的所有的 类和对象使用!!
 
 
   def eat(): String = {
@@ -52,10 +54,14 @@ object S2 {
 
     val s2 = new S2()
 
+
     println(s2.eat())
     s2.drink("tea")
     println(s2.sex) // sex 私有属性，只有 object S2 伴生类下 才能访问到：既 object S2{} 内可访问
     // println(s2.money)    // [this]修饰，只限class{} 内部访问，无法在其他位置 对象.属性 获取属性
+
+    println(s2.salary)
+
     println(s2.change_money(100))
 
   }
@@ -67,3 +73,5 @@ object D2 {
   // s2.sex    非伴生类无法访问私有属性
 
 }
+
+
