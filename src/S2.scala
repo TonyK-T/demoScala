@@ -2,14 +2,14 @@
 /**
   * 类和方法
   *    1.方法
-  *    方法传参只会： ff(name:String) | ff(name:String ="jock") | ff(name:String*) ; 不可出现 val|var  如： ff(val name:String="jock") 另外ps: val|var 在() 里面出现都是在 构造器中
+  * 方法传参只会： ff(name:String) | ff(name:String ="jock") | ff(name:String*) ; 不可出现 val|var  如： ff(val name:String="jock") 另外ps: val|var 在() 里面出现都是在 构造器中
   *
   *
   * 构造器 见_S3
   *
   * 伴生类 和 伴生对象
-  *    class_name 和 object_name 同名 》 class S5 : object S5  ===  伴生类 ： 伴生对象
-  *    object 本身就是一个 单例对象(单例_对象_不需要new；S4补充)
+  * class_name 和 object_name 同名 》 class S5 : object S5  ===  伴生类 ： 伴生对象
+  * object 本身就是一个 单例对象(单例_对象_不需要new；S4补充)
   */
 class S2 {
   var name = "stringk"
@@ -20,7 +20,7 @@ class S2 {
 
   private[this] var money = 1000 // [this] 修饰作用域只限 当前 class{} 内部
 
-  private [S2] var salary = 2000   //  [S2] 修饰作用域只限  class S2{} 内部，class S2实例对象 以及 包名为 S2 下面的所有的 类和对象使用!!
+  private[S2] var salary = 2000 //  [S2] 修饰作用域只限  class S2{} 内部，class S2实例对象 以及 包名为 S2 下面的所有的 类和对象使用!!
 
 
   def eat(): String = {
@@ -36,16 +36,16 @@ class S2 {
   }
 
   // 匿名函数
-  val nm = (x:Int) => x+1
+  val nm = (x: Int) => x + 1
 
-  def nm2(x:Int): Int ={   // 匿名函数原型
-    x+1
+  def nm2(x: Int): Int = { // 匿名函数原型
+    x + 1
   }
 
-  def add(x:Int,y:Int) = x+y   //
+  def add(x: Int, y: Int) = x + y //
 
 
-  def m(x:Int)(y:Int) = x+y    // 柯理化
+  def m(x: Int)(y: Int) = x + y // 柯理化
 
 }
 
