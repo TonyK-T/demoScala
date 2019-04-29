@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a69a1aa-14f6-4d33-8a89-ad0295cabdc6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/D2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/D2$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S10$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S10$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1b$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1b$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1b$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1b$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1b$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1b$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S2$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S2$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S2$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/S10.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S10.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/S11.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S11.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/S2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/N1/N1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/N1/N1.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,88 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="S3.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S3.scala">
+      <file leaf-file-name="N1.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/N1/N1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-149">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S4.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S4.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-757" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S5.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S5.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-909" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S6.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S6.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="127" column="62" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S7.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S7.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="953">
-              <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S8.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S8.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1308">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S9.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S9.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S10.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S10.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S11.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S11.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S13.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/S13.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="706">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
+              <folding>
+                <element signature="e#12#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,8 +65,8 @@
         <option value="$PROJECT_DIR$/src/S7.scala" />
         <option value="$PROJECT_DIR$/src/S2.scala" />
         <option value="$PROJECT_DIR$/src/S10.scala" />
-        <option value="$PROJECT_DIR$/src/N1/N1.scala" />
         <option value="$PROJECT_DIR$/src/S11.scala" />
+        <option value="$PROJECT_DIR$/src/N1/N1.scala" />
       </list>
     </option>
   </component>
@@ -191,27 +107,21 @@
             </path>
             <path>
               <item name="demoScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="N1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoScala" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoSpark24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -333,15 +243,15 @@
       <workItem from="1553837891690" duration="34000" />
       <workItem from="1554194780201" duration="4844000" />
       <workItem from="1554860937888" duration="3943000" />
+      <workItem from="1556527582750" duration="681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77155000" />
+    <option name="totallyTimeSpent" value="77836000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -351,19 +261,19 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.25674218" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.10181237" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.102878466" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.33578947" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32901832" />
@@ -484,16 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/N1/N1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#12#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/S1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-491">
@@ -515,55 +415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/S3.scala">
+    <entry file="file://$PROJECT_DIR$/src/S13.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-757" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S5.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-909" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S6.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="127" column="62" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S7.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S8.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1308">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S9.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S10.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -574,10 +429,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/S13.scala">
+    <entry file="file://$PROJECT_DIR$/src/S10.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="3">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S9.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S8.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S6.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="127" column="62" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S5.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S4.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S7.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1010">
+          <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/N1/N1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#12#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
