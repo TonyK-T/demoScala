@@ -60,7 +60,7 @@ class S1 {
       println(j)
     }
     val k = 1
-    println(k until (20))
+    println(k until 20)
 
 
     while (if (age < 1) true else false) { // 跳出循环只能是 return | 改变判断条件 | 使用Breaks类的break方法

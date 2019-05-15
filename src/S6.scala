@@ -1,6 +1,6 @@
 /**
   * case class
-  *     1、必须声明构造器
+  *     1、必须显示的声明构造器
   *     2、case class 不用new，直接通过 类名+() 调用
   *     3、case class 常用使用场景：模式匹配，见 S8
   *
@@ -17,14 +17,17 @@
   *
   *   case class: className();  不用 new,只要()。
   *
-  *   class: new className();   需要new也需要一个()。 加()() 的默认是调用 class{ apply() }
+  *   class: new className();   需要new也需要一个()。 加new()() 的默认是调用 class{ apply() }
   *
-  *   abstract:  有构造器，子类extends继承 需要重写所有的属性和方法
+  *   abstract(抽象类):  有构造器，子类extends继承 需要重写所有的属性和方法
   *
-  *   trait： 有无参数的构造器，子类extends Atrait with Btrait ； 继承with 需要 重写 或者重新定义 所有的属性和方法
+  *   trait(特质类)： 有无参数的构造器，子类extends Atrait with Btrait ； 继承with 需要 重写 或者重新定义 所有的属性和方法
+  *
+  *   ps: 类都有构造器
+  *
   */
 
-case class S6() { // case class 必须 声明构造器
+case class S6() { // case class 必须 显示声明构造器
 
   def get_name(name: String): Unit = {
     println(name)
@@ -34,7 +37,7 @@ case class S6() { // case class 必须 声明构造器
 
 
 // Trait
-trait Persion { // trait 有 无参数的构造器,不能+()
+trait Person { // trait 有 无参数的构造器,不能+()
   val name: String
   val age: Int
 
@@ -46,7 +49,7 @@ trait Persion { // trait 有 无参数的构造器,不能+()
 
 }
 
-trait PersionEx {
+trait PersonEx {
   var card = ""
 
   def get_card(): String
@@ -54,7 +57,7 @@ trait PersionEx {
   // def edit_card()
 }
 
-class Me(override val name: String, val age: Int, var cd: String) extends Persion with PersionEx { // 第一个trait 用 extends,后面的 trait 都用 with
+class Me(override val name: String, val age: Int, var cd: String) extends Person with PersonEx { // 第一个trait 用 extends,后面的 trait 都用 with
 
   override def get_name(): String = { // override重写的方式
     name
@@ -76,27 +79,6 @@ class Me(override val name: String, val age: Int, var cd: String) extends Persio
 }
 
 
-object S6 {
-  def main(args: Array[String]): Unit = {
-
-    // case class
-    S6().get_name("jock")
-
-
-    // trait
-    val me = new Me("jock", 18, "123456")
-    println(me.get_name())
-    println(me.get_age())
-    me.say()
-    println(me.get_card())
-
-    // 特质构造器补充
-    val s6ac = new S6ac()   // 在创建实例对象的时候，由trait自己去"实现方法"
-
-
-  }
-
-}
 
 
 /**
@@ -108,10 +90,10 @@ object S6 {
 
 trait S6a{
 
-  m6a             // 不调用不执行
-  add(1,9)        // 不调用不执行
+  m6a             // 调用执行
+  add(1,9)        // 调用执行
 
-  def m6a(): Unit ={
+  def m6a(): Unit ={           // 实例方法
     println("method: m6a() ")
 
   }
@@ -125,7 +107,7 @@ trait S6a{
 }
 
 class S6ac extends S6a{
-  override def sum(x: Int, y: Int): Int = {    // trait 没有声明调用，子类需要 重写|重新声明
+  override def sum(x: Int, y: Int): Int = {    // trait 没有声明调用，子类必须 重写|重新声明（ps:sum()没有调用执行，则子类重写）
     x+y
   }
 
@@ -150,5 +132,65 @@ trait S6bc extends S6b{
   override def ms6b(msg: String): Unit = {
     println(msg)
   }
+}
+
+
+// trait 链条式调用：继承多个trait后，依次调用多个trait中的同一个方法，只要让多个trait的同一个方法中，在最后都执行super.方法，即可形成一个调用链条-会从最右边的trait的方法开始执行，然后依次往左执行
+
+trait Handler{
+  def handler(name:String){}
+}
+
+trait OneHandler extends Handler{
+  override def handler(name: String): Unit = {
+    println("OneHandler"+name)
+    super.handler(name)             // 在最后都执行super.方法
+
+  }
+
+}
+
+trait TwoHandler extends Handler{
+  override def handler(name: String): Unit = {
+    println("TwoHandler"+name)
+
+    super.handler(name) // 在最后都执行super.方法
+  }
+}
+
+class Student(val name:String) extends TwoHandler with OneHandler{
+  def say()={
+    println("hi"+name)
+
+    handler(name)
+  }
+
+
+}
+
+
+object S6 {
+  def main(args: Array[String]): Unit = {
+
+    // case class
+    S6().get_name("jock")
+
+
+    // trait
+    val me = new Me("jock", 18, "123456")
+    println(me.get_name())
+    println(me.get_age())
+    me.say()
+    println(me.get_card())
+
+    // 特质构造器补充
+    val s6ac = new S6ac()   // 在创建实例对象的时候，由trait自己去"实现方法"
+
+
+    val s=new Student("jock")    // trait 链条调用
+    s.say
+
+  }
+
 }
 

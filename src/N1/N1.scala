@@ -76,8 +76,8 @@ class N1 {
 
 
   // Source.fromfile()
-  def read_file(file: String) = {
-    val file = Source.fromFile(name = file).mkString
+  def read_file(file_path: String) = {
+    val file = Source.fromFile(name = file_path).mkString
     val tokens = file.split(",")
     val hmap = new mutable.HashMap[String, Int]()
     for (token <- tokens) {

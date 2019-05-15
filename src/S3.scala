@@ -55,9 +55,9 @@ object S3 {
 
     println(s3._name)
     //println(s3.sex)   // 未声明(未使用val|var) sex 属性,单纯的类似 方法传参而已, 注意： 这种做法是不推荐的，构造器的意义就是构造对象属性，而不是作为参数传入
-    println(s3.age) // 声明 val|var 即声明了对象属性,  像name 是分两步写的
+    println(s3.age) // 声明 val|var 即声明了对象属性,  像name 是分两步写的(this._name=name)
 
-    println(s3.salary) // 私有属性，伴生类才可访问
+    println(s3.salary) // 私有属性，伴生类可访问
 
     s3.say("hello")
 
