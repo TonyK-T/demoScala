@@ -19,11 +19,17 @@ class S7 {
     arr_b(1) = "g" // 声明的val, 但是修改的只是 数组里面的内容,不能改的是 数组的内存地址
     arr_b.foreach(println(_))
 
-    val arr_c = Array(1, 2, 3, 4, 5, 6)
+    val arr_c = Array(7,8,1, 2, 3, 4, 5, 6)
     println(arr_c.mkString) // 数组转字符串： "123456"
     println(arr_c.mkString("-")) // "1-2-3-4-5-6"
     println(arr_c.mkString("《", "-", "》")) //《1-2-3-4-5-6》
     println(arr_c.toBuffer)
+
+    val arr_d =for(ele <- arr_c if ele %2 ==0) yield ele*ele
+    println(arr_d)
+
+    val arr_e = arr_c.filter(_%2==0).map(2*_)
+    arr_e.foreach(print)
 
   }
 
@@ -53,6 +59,10 @@ class S7 {
 
     for (j <- (0 until arr.length).reverse) { // 反向
       print(arr(j))
+    }
+
+    for (k <- 0 until(arr.length,2)){   // 跳跃步长=2 遍历
+      println(arr(k))
     }
 
 
@@ -131,14 +141,27 @@ class S7 {
   def m7() = {
     val stu = Map("jock" -> "11", "rose" -> "12") // 不可变
     println(stu("jock"))
+    val name = if (stu.contains("rose")) stu("rose") else " "
+
     println(stu.getOrElse("dog", " "))
 
     val stu2 = mutable.Map("rose" -> "13") // 可变
-    println(stu2 += ("dog" -> "1"))
-
+    stu2 += ("dog" -> "1","cat"->"2")
+    stu2 -="jock"
+    println(stu2)
 
     val arr = Array(("jock", 2), ("rose", 1))
     println(arr.toMap)
+
+    for ((k,v)<-stu2){
+      println(k+":"+v)
+    }
+
+    for (v <- stu2.values)println(v)
+    for ((k,v) <- stu2)yield (v,k)
+
+
+
 
   }
 
@@ -150,6 +173,7 @@ object S7 {
   def main(args: Array[String]): Unit = {
 
     val s7 = new S7()
+    s7.m1()
     //s7.m2()
 
     //s7.m4()

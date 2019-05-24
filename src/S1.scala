@@ -27,6 +27,10 @@ class S1 {
     println(number)
   }
 
+
+
+
+
   /**
     * 方法总结：
     * 方法传参只会： ff(name:String) | ff(name:String ="jock") | ff(name:String*) ; 不可出现 val|var  如： ff(val name:String="jock") ps: val|var 在 ()里面 出现都是在 构造器中
@@ -45,6 +49,12 @@ class S1 {
       println(if (age < 1) true else false)
 
     }
+
+
+    //    if(i:Int=18 < age){   // 报错
+    //
+    //    }
+
 
   }
 
@@ -72,6 +82,36 @@ class S1 {
 
     }
 
+    // 跳出循环
+    var n = 10
+    while (n > 0) {
+      println(n)
+      n -= 1
+    }
+
+    import scala.util.control.Breaks._
+    for (i <- 1 to 10){
+      breakable{
+        if(i == 5 ){
+          break()        // 相当于 continue
+
+        }
+        println(i)
+      }
+    }
+
+    for (j <- 1 to 10){
+      if(j ==5){
+        break()       // break
+      }
+      println(j)
+    }
+
+
+
+
+
+
     // foreach 循环
     val arr = Array("a", "b", "c")
     arr.foreach(x => println(x)) // _ 参数, println() 为函数
@@ -87,6 +127,10 @@ object S1 {
     val s1 = new S1()
     println(s1.m2("a", 1))
     s1.m3(1, 2)
+
+
+
+
 
   }
 }
