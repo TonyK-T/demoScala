@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a69a1aa-14f6-4d33-8a89-ad0295cabdc6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/S1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/S7.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S7.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/S6.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S6.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,17 +17,29 @@
       <file leaf-file-name="S1.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/S1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="551">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="S7.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="S7.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/S7.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="134" column="3" lean-forward="true" selection-start-line="134" selection-start-column="3" selection-end-line="134" selection-end-column="3" />
+            <state relative-caret-position="238">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="S6.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/S6.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,7 +51,6 @@
       <find>Spark</find>
       <find>单例</find>
       <find>模式</find>
-      <find>case</find>
       <find>S5</find>
       <find>S4</find>
       <find>构造器</find>
@@ -58,6 +68,7 @@
       <find>map</find>
       <find>catch</find>
       <find>Runnable</find>
+      <find>case</find>
     </findStrings>
     <replaceStrings>
       <replace>S4</replace>
@@ -81,7 +92,6 @@
         <option value="$PROJECT_DIR$/src/S12.scala" />
         <option value="$PROJECT_DIR$/src/S5.scala" />
         <option value="$PROJECT_DIR$/src/S3.scala" />
-        <option value="$PROJECT_DIR$/src/S6.scala" />
         <option value="$PROJECT_DIR$/src/S13a.scala" />
         <option value="$PROJECT_DIR$/src/S13b.scala" />
         <option value="$PROJECT_DIR$/src/S14.scala" />
@@ -89,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/S13c.scala" />
         <option value="$PROJECT_DIR$/src/S1.scala" />
         <option value="$PROJECT_DIR$/src/S7.scala" />
+        <option value="$PROJECT_DIR$/src/S6.scala" />
       </list>
     </option>
   </component>
@@ -115,8 +126,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -275,11 +286,12 @@
       <workItem from="1558057002971" duration="4646000" />
       <workItem from="1558315539875" duration="10333000" />
       <workItem from="1558406159166" duration="6916000" />
+      <workItem from="1560827204236" duration="155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140134000" />
+    <option name="totallyTimeSpent" value="140289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -287,7 +299,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32901832" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -299,8 +310,9 @@
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.10927505" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.110341154" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="6" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -312,7 +324,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32901832" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,10 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-          <folding>
-            <element signature="e#15020#15021#0" expanded="true" />
-            <element signature="e#15084#15085#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -549,24 +557,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/S6.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/S1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/S7.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="134" column="3" lean-forward="true" selection-start-line="134" selection-start-column="3" selection-end-line="134" selection-end-column="3" />
+        <state relative-caret-position="238">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S6.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

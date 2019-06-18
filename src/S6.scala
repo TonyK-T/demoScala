@@ -1,7 +1,7 @@
 /**
   * case class
   *     1、必须显示的声明构造器
-  *     2、case class 不用new，直接通过 类名+() 调用
+  *     2、case class 不用new创建对象，直接通过 类名+() 初始化
   *     3、case class 常用使用场景：模式匹配，见 S8
   *
   * Trait 类似java接口,比java接口更强大
@@ -13,7 +13,7 @@
 
 /**
   * 总结：
-  *   object： object.直接调用;  不用new也不用()。 加 () 的默认调用的是 object{ apply() }
+  *   object： object. 类名直接调用;  不用new也不用()。 加 () 的默认调用的是 object{ apply() }
   *
   *   case class: className();  不用 new,只要()。
   *
@@ -21,7 +21,7 @@
   *
   *   abstract(抽象类):  有构造器，子类extends继承 需要重写所有的属性和方法
   *
-  *   trait(特质类)： 有无参数的构造器，子类extends Atrait with Btrait ； 继承with 需要 重写 或者重新定义 所有的属性和方法
+  *   trait(特质类)： 有无参数的构造器，子类extends Atrait with Btrait ； 继承用with， 需要 重写 或者重新定义 所有的属性和方法
   *
   *   ps: 类都有构造器
   *
