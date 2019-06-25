@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a69a1aa-14f6-4d33-8a89-ad0295cabdc6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/S6.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S6.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$4$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$4$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$m5$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$main$1$$anonfun$apply$mcVI$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S14$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S14$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m2$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m2$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m2$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m2$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S7$$anonfun$m7$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S7$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S7$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demoScala/S7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demoScala/S7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/S14.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/S14.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,32 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="S1.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S1.scala">
+      <file leaf-file-name="S14.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/S14.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S7.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S7.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S6.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/S6.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="744">
+              <caret line="273" column="30" lean-forward="true" selection-start-line="273" selection-start-column="30" selection-end-line="273" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -94,12 +97,12 @@
         <option value="$PROJECT_DIR$/src/S3.scala" />
         <option value="$PROJECT_DIR$/src/S13a.scala" />
         <option value="$PROJECT_DIR$/src/S13b.scala" />
-        <option value="$PROJECT_DIR$/src/S14.scala" />
         <option value="$PROJECT_DIR$/src/S13.scala" />
         <option value="$PROJECT_DIR$/src/S13c.scala" />
         <option value="$PROJECT_DIR$/src/S1.scala" />
         <option value="$PROJECT_DIR$/src/S7.scala" />
         <option value="$PROJECT_DIR$/src/S6.scala" />
+        <option value="$PROJECT_DIR$/src/S14.scala" />
       </list>
     </option>
   </component>
@@ -126,9 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,23 +138,21 @@
             </path>
             <path>
               <item name="demoScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoScala" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoSpark24" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -174,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.S1">
+  <component name="RunManager" selected="Application.S14">
     <configuration name="S1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="S1" />
       <module name="demoScala" />
@@ -250,10 +248,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.S14" />
         <item itemvalue="Application.S1" />
         <item itemvalue="Application.S13c" />
         <item itemvalue="Application.S13" />
-        <item itemvalue="Application.S14" />
         <item itemvalue="Application.S13b" />
       </list>
     </recent_temporary>
@@ -287,45 +285,75 @@
       <workItem from="1558315539875" duration="10333000" />
       <workItem from="1558406159166" duration="6916000" />
       <workItem from="1560827204236" duration="155000" />
+      <workItem from="1561454734058" duration="4636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140289000" />
+    <option name="totallyTimeSpent" value="144925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32901832" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.15641855" />
       <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.29126215" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.110341154" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.11140725" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="6" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.33549082" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.33549082" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32901832" />
+      <window_info anchor="bottom" id="Find" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.4056095" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11140725" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.33549082" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32901832" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -501,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/S14.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/develop/java/src.zip!/java/util/concurrent/Exchanger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -557,20 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/S1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S7.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/S6.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -578,6 +585,27 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S7.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/S14.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="273" column="30" lean-forward="true" selection-start-line="273" selection-start-column="30" selection-end-line="273" selection-end-column="30" />
         </state>
       </provider>
     </entry>
